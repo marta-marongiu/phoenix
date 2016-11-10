@@ -19,7 +19,7 @@ header a{
 }
 .header_container{
 	width: 75%;
-	margin: 0 auto 40px;
+	margin: 0 auto 15px;
 }
 .logo_container {
 	width: 60%;
@@ -44,24 +44,34 @@ header a{
 .navbar {
 	width: 30%;
 	float: right;
-	margin-top: 30px;
+	margin-top: 10px;
+}
+.navbar ul{
+	text-align: center
+
 }
 
 .navbar a{
 	color: grey;
+	letter-spacing: 1px;
+	padding: 0 5px;
 }
 
 .navbar li {
 	display: inline-block;
-	margin-left: 20px; 
+	 
 
 }
 .navbar li a:hover {
 	color: black;
 }
-.photo_container{
+.photo_container img {
+	box-sizing: border-box;
 	width: 100%;
-
+}
+.photo_container  {
+	
+	width: 100%;
 }
 
 .description_container{
