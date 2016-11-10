@@ -52,9 +52,11 @@ header a{
 }
 
 .navbar a{
+	font-size: 14px;
 	color: grey;
 	letter-spacing: 1px;
 	padding: 0 5px;
+	text-transform: uppercase;
 }
 
 .navbar li {
@@ -69,8 +71,10 @@ header a{
 	box-sizing: border-box;
 	width: 100%;
 }
+
 .photo_container  {
-	
+
+	margin: 0;
 	width: 100%;
 }
 
@@ -83,25 +87,123 @@ header a{
 	margin: 70px 0;
 }
 
+#image {
+	border-bottom: 5px solid #d02f2f;
+}
+
 
 /*Fine Parte 1----------------------------------------------------------------------------*/
-section {
+
+h3 {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+.info-box {
 	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
 }
 
-section div:nth-child(1) {
-	width: 65%;
-	float: left;
+.first {
+	background-image: url(Contacts-back.jpg);
+	background-size: contain;
 }
 
-section div:nth-child(2) {
+.description {
 	width: 35%;
 	float: left;
-	background-color: grey;
+	padding: 30px 0 30px 15%;
+}
+
+
+.info {
+	width: 40%;
+	float: right;
+	margin-left: 50px;
+	padding: 40px 5px;
+}
+
+.bg {
+	color: white;
+	background-color: black;
+	opacity: 0.8;
+	padding-left: 40px;
 }
 
 .info ul {
 	list-style: none;
 	width: 40%;
 	float: left;
+	padding-left: 0;
 }
+
+.info ul:nth-child(1) {
+	list-style: none;
+	width: 40%;
+	float: left;
+	padding-left: 0;
+	margin-left: 50px;
+
+}
+
+.info ul li {
+	margin: 12px 0;
+}
+
+
+blockquote {
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+.quote {
+	width: 100%;
+	background-image: url(Contacts-back.jpg);
+	background-size: contain;
+	margin: 0;
+	text-align: center;
+
+}
+
+.quote-container {
+	background-color: #d02f2f;
+	opacity: 0.5;
+	padding: 50px 0 70px 0;
+}
+
+blockquote {
+	color: white;
+	font-size: 31px;
+	padding: 0 15%;
+	font-size: 31px;
+	font-weight: normal;
+	text-align: left;
+	line-height: 40px;
+	margin: 70px 0 30px;
+	font-style: italic;
+	opacity: 1;
+}
+
+cite {
+	width: 30%;
+	color: white;
+	font-style: normal;
+	padding-bottom: 20px;
+}
+
+footer {
+	width: 100%;
+	background-color: #333;
+	color: #666;
+	font-size: 12px;
+	padding: 5px 15%;
+	box-sizing: border-box;
+	text-align: left;
+} 
+
