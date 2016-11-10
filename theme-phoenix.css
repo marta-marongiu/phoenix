@@ -61,15 +61,16 @@ header a{
 }
 .photo_container{
 	width: 100%;
-	margin-bottom: 40px;
 
 }
 
 .description_container{
 	background-color: white;
 	padding: 0 15%;
-	font-size: 28px;
-	text-align: justify;
+	font-size: 31px;
+	text-align: left;
+	line-height: 40px;
+	margin: 70px 0;
 }
 
 
@@ -87,4 +88,10 @@ section div:nth-child(2) {
 	width: 35%;
 	float: left;
 	background-color: grey;
+}
+
+.info ul {
+	list-style: none;
+	width: 40%;
+	float: left;
 }
