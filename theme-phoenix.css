@@ -1,72 +1,26 @@
-/*red color: #d02f2f
-font logo font-family: 'Bree Serif', serif; */
+red color: #940909
 
 body {
 	font-family: 'Raleway', sans-serif;
-	
-	margin:0;
 }
 
-header {
-	background-color: white;
+
+
+/*michela*/
+
+section {
 	width: 100%;
-	border-top: 4px solid #d02f2f;
-	padding: 30px 0;	
-}
-header a{
-	text-decoration: none;
-}
-.header_container{
-	width: 75%;
-	margin: 0 auto 40px;
-}
-.logo_container {
-	width: 60%;
-	display: inline-block;
-}
-.logo_container span:nth-child(1){
-	font-family: 'Bree Serif', serif;
-	font-size: 28px;
 }
 
-.italic_font {
-	font-family: 'Crimson Text', serif;
-	font-size: 20px;
+section div:nth-child(1) {
+	width: 65%;
+	float: left;
 }
 
-.logo_container a{
-	color: black;
-}
-.bold{
-	font-weight: bold;
-}
-.navbar {
-	width: 30%;
-	float: right;
-	margin-top: 30px;
+section div:nth-child(2) {
+	width: 35%;
+	float: left;
+	background-color: grey;
 }
 
-.navbar a{
-	color: grey;
-}
 
-.navbar li {
-	display: inline-block;
-	margin-left: 20px; 
-
-}
-.navbar li a:hover {
-	color: black;
-}
-.photo_container{
-	width: 100%;
-	margin-bottom: 40px;
-
-}
-
-.description_container{
-	background-color: white;
-	padding: 0 15%;
-	font-size: 28px;
-	text-align: justify;
-}
