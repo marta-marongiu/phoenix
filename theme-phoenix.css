@@ -206,3 +206,113 @@ footer {
 	text-align: left;
 } 
 
+@media screen and (max-width: 425px) {
+
+	header {
+		padding: 25px 0;
+	}
+
+	.header_container {
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	.logo_container {
+		display: block;
+		width: 100%;
+		margin-left: 28px;
+	}
+
+	.logo_container > a {
+		text-align: center;
+	}
+
+	.italic_font {
+		padding-left: 40px;
+	}
+
+	.navbar {
+		width: 100%;
+		display: block;
+		align-content: center;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.navbar ul {
+		padding: 0;
+		margin-bottom: 0;
+		margin-left: 5px;
+	}
+
+	.navbar ul li {
+		padding: 0 10px;
+	}
+
+	.navbar a {
+		font-size: 13px;
+	}
+
+	.description_container {
+		font-size: 20px;
+		margin: 30px 0;
+		line-height: 35px;
+		padding: 0 10%
+	}
+
+	.first {
+		display: block;
+		width: 100%;
+	}
+
+
+	.description {
+		display: block;
+		text-align: center;
+		font-size: 15px;
+		width: 100%;
+		text-align: left;
+		padding: 0 10%;
+		box-sizing: border-box;
+		margin: 20px 0;
+		line-height: 23px;
+	}
+
+	.info {
+		display: block;
+		text-align: center;
+		font-size: 15px;
+		width: 100%;
+		text-align: left;
+		padding: 15px 10%;
+		box-sizing: border-box;
+	}
+
+	.bg ul:nth-child(3) {
+		padding-left: 15%;
+	}
+
+	.quote-container {
+		padding-top: 30px;
+	}
+
+	.quote-container blockquote {
+		font-size: 20px;
+		margin-top: 30px;
+	}
+
+	.quote-container cite {
+		font-size: 12px;
+	}
+
+	footer {
+		font-size: 10px;
+		padding: 8px 10%;
+	}
+
+	footer p {
+		margin: 0;
+	}
+
+
+}
