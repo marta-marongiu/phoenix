@@ -164,17 +164,16 @@ blockquote {
 
 .quote {
 	width: 100%;
-	background-image: url(Contacts-back.jpg);
 	background-size: contain;
 	margin: 0;
 	text-align: center;
-
 }
 
 .quote-container {
 	background-color: #d02f2f;
-	opacity: 0.5;
 	padding: 50px 0 70px 0;
+	background-image: url(original.png); 
+	background-blend-mode: multiply;
 }
 
 blockquote {
